@@ -33,13 +33,17 @@ const HomeScreen = ({navigation}) => {
             title="Go to Input"
             onPress={() => navigation.navigate('Input')}
         />
+        <Button
+            title="Go to Box"
+            onPress={() => navigation.navigate('Box')}
+        />
     </View>
   )
 };
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 30
+    fontSize: 20
   }
 });
 
